@@ -62,10 +62,27 @@
     flex-wrap: wrap;*/
 }
 
+/* MENU LATERAL PARA TELAS DE TABLETS */
+
 @media screen and (min-width: 834px) {
     /* CABEÇALHO */
     .cabecalho__pesquisar__item {
         display: block;
+    }
+
+    .menu__container {
+        left: 0px;
+        height: auto;
+        width: 74px;
+        top: 80px;
+    }
+
+    .menu__lista {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 15px;
+        gap: 33px;
     }
 
     /* RODAPÉ */
